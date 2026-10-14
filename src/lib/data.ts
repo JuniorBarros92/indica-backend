@@ -1,4 +1,5 @@
-export type Service = {id:number;title:string;category:string;price:number;rating:number;reviews:number;photo:string;name:string;avatar:string;condo:string;bio:string;description:string;whatsapp:string};
+import type { Service } from '../types/service';
+export type { Service } from '../types/service';
 export const categories = ['Todos','Reformas','Aulas','Culinária','Limpeza','Beleza','Pet','Tecnologia','Montagem'];
 export const services: Service[] = [
 {id:1,title:'Instalação elétrica e pequenos reparos',category:'Reformas',price:90,rating:4.9,reviews:18,photo:'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=85',name:'Carlos Henrique',avatar:'https://i.pravatar.cc/100?img=12',condo:'Residencial Ipês',bio:'Eletricista profissional há mais de 8 anos. Atendimento cuidadoso e garantia.',description:'Serviços elétricos residenciais, instalação de tomadas, luminárias, chuveiros e pequenos reparos. Trabalho organizado, orçamento antes de começar e atendimento no próprio condomínio.',whatsapp:'5561999990001'},
